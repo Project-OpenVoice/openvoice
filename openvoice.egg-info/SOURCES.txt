@@ -1,3 +1,5 @@
+LICENSE
+README.md
 pyproject.toml
 app/__init__.py
 app/core/__init__.py
