@@ -1,0 +1,32 @@
+[project]
+name = "openvoice"
+version = "0.1.0"
+description = "Local-first personal OS — Decision Engine + Memory Manager (PRE-PHASE-0)"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+    "pydantic-settings>=2.0",
+    "aiosqlite>=0.20",
+    "aiofiles>=23.0",
+    "chromadb>=0.5",
+    "sentence-transformers>=3.0",
+    "laya>=0.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.4",
+    "pytest>=8.0",
+    "pytest-asyncio>=0.23",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]

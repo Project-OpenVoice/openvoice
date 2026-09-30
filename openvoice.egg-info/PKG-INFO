@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: openvoice
+Version: 0.1.0
+Summary: Local-first personal OS — Decision Engine + Memory Manager (PRE-PHASE-0)
+Requires-Python: >=3.12
+Requires-Dist: pydantic>=2.0
+Requires-Dist: pydantic-settings>=2.0
+Requires-Dist: aiosqlite>=0.20
+Requires-Dist: aiofiles>=23.0
+Requires-Dist: chromadb>=0.5
+Requires-Dist: sentence-transformers>=3.0
+Requires-Dist: laya>=0.3
+Provides-Extra: dev
+Requires-Dist: ruff>=0.4; extra == "dev"
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-asyncio>=0.23; extra == "dev"

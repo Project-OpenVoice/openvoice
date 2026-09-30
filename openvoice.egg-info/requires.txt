@@ -1,0 +1,12 @@
+pydantic>=2.0
+pydantic-settings>=2.0
+aiosqlite>=0.20
+aiofiles>=23.0
+chromadb>=0.5
+sentence-transformers>=3.0
+laya>=0.3
+
+[dev]
+ruff>=0.4
+pytest>=8.0
+pytest-asyncio>=0.23

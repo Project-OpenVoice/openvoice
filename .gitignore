@@ -1,0 +1,6 @@
+.env
+__pycache__
+*/**/__pycache__/**/*
+*.log
+plan*.md
+.pytest_cache
